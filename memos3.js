@@ -40,7 +40,11 @@ const allCSS = `
 .bb-timeline .datacount svg{margin:2px 5px;}
 .bb-timeline .bb-cont img[src*=emotion]{display:inline-block;width:auto;}
 .bb-timeline p{margin:0;margin:0;min-height:18px;color:#3b3d42;letter-spacing:1px;line-height:28px;}
-.dark .bb-timeline p{margin:0;margin:0;min-height:18px;color:#fff;letter-spacing:1px;line-height:28px;}
+[data-theme=dark] .bb-timeline p{
+  padding: 0;
+  color: #fff !important;
+  background: transparent;
+}
 .bb-timeline pre{color:#aaa;}
 .bb-timeline pre p{display:inline-block;}
 .bb-timeline pre p:empty{display:none;}
