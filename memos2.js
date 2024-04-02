@@ -40,7 +40,7 @@ const allCSS = `
 .bb-timeline .datacount svg{margin:2px 5px;}
 .bb-timeline .bb-cont img[src*=emotion]{display:inline-block;width:auto;}
 .bb-timeline p{margin:0;margin:0;min-height:18px;color:#ffffff;letter-spacing:1px;line-height:28px;}
-.bb-timeline pre{color:#aaa;}
+.bb-timeline pre{color:#fff;}
 .bb-timeline pre p{display:inline-block;}
 .bb-timeline pre p:empty{display:none;}
 .bb-cont p{magin:0;}
