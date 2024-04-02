@@ -27,7 +27,7 @@ function loadCssCode(code){
 const allCSS = `
 #bber{margin-top:1rem;width:auto!important;min-height:100vh;}
 .bb-timeline ul{margin:0;padding:0;}
-.bb-timeline ul li{margin-bottom:3rem;list-style-type:none !important;}
+.bb-timeline ul li{margin-bottom:3rem;list-style-type:none!important;}
 .bb-timeline ul li .bb-cont ul li{margin-bottom:0;}
 .bb-timeline .bb-item,.bb-load button{border:1px solid #dcdcdc;border-radius:8px;box-shadow:3px 3px 5px rgba(0,0,0,.1);}
 .bb-timeline .bb-item{padding:.6rem 1rem .6rem;font-size:16px;}
@@ -248,7 +248,7 @@ function meNums(apiV1){
   let bbUrl = memos+"api/"+apiV1+"memo/stats?creatorId="+bbMemo.creatorId
   fetch(bbUrl).then(res => res.json()).then( resdata =>{
     if(resdata){
-      let allnums = `<div id="bb-footer"><p class="bb-allnums">共 ${resdata.length} 条 </p><p class="bb-allpub"><a href="https://immmmm.com/bbs/" target="_blank">Memos Public</a></p></div>`
+      let allnums = `<div id="bb-footer"><p class="bb-allnums">共 ${resdata.length} 条 </p><p class="bb-allpub"><a href="https://memos.readfere.com" target="_blank">Memos Public</a></p></div>`
       bbLoad.insertAdjacentHTML('afterend', allnums);
     }
   })
