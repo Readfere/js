@@ -64,6 +64,7 @@ const allCSS = `
 .bb-allnums{letter-spacing:2px;}
 .bb-allpub{text-decoration:none;font-style:italic;}
 .bb-timeline ul li::before{content:none;}
+[data-theme=dark] .bb-timeline p{padding: 0;color: #fff !important;background: transparent;}
 
 /* db-card -------- start*/
 .db-card{border-bottom:1px solid #eaeaea;box-shadow: none;margin:-0.6rem -1rem .6rem;}
